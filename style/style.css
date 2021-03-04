@@ -1,0 +1,32 @@
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.photo_user{
+    width: 50%;
+    padding: 30px;
+}
+.photo_user .avatar {
+    width: 400px;
+    height: 550px;
+}
+.contact_block h1{
+    color: darkred;
+}
+.contact_block p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.title_ul{
+    color: darkblue;
+}
+code{
+    color: dimgrey;
+}
