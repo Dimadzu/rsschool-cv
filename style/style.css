@@ -1,11 +1,178 @@
 
-*,html,body{margin: 0;padding: 0;list-style: none; box-sizing: border-box;font-family: 'Lato', sans-serif;}
 
+*,html,body{margin: 0;padding: 0;list-style: none; box-sizing: border-box;font-family: 'Roboto Condensed', sans-serif;}
 
 .container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #DBF5D9;
+}
+ .hero {
+   width: 100%;
+   min-height: 600px; 
+   background-image: url(../img/hero_bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 120px;
+   text-align: center;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1.5px solid whitesmoke;
+    background-image: url(../img/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .title_name{
+     text-transform: uppercase;
+     font-size: 44px;
+     letter-spacing: 1.5px;
+     color: #D0C4D9;
+     font-weight: 500;
+ }
+ .hero h4{
+    padding: 21px;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    color: #D0C4D9;
+    font-weight: 300;
+ }
+ .contact{
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 120px;
+    }
+    .contact li{
+        display: flex;
+        color: #D0C4D9;
+
+    }
+    .contact_img{
+        color: white;
+        width: 30px;
+        height: 30px;
+        margin: 0px 6px 4px 0;
+    }
+    .contact li p{
+        font-size: 21px;
+    }
+
+/* description section Experience, education, skils */
+ .description{
+    width: 100%;
+    display: flex;
+    padding: 70px;
+}
+ .description_item {
+     width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.description_item:nth-child(1){
+    border-right: 2px solid #B2C7B1;
+}
+.description_item:nth-child(2){
+    padding-left: 70px;
+    padding-right: 0;
+}
+.title_description{
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    color: #292E29;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 30px 0 30px 0;
+}
+.work_specialist{
+    color: #323832;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 35px;
+    margin-left: 10px;
+}
+.work_desc{
+    color: #657064;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 34px;
+    margin-left: 10px;
+}
+.skills_item{
+    margin-left: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.skills_item h6{
+    font-size: 28px;
+
+}
+.skill_progress{
+    display: flex;
+    padding-bottom: 20px;
+}
+.item_progress{
+    width: 25px;
+    height: 25px;
+    background-color: #252924;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+}
+.skill_progress .white{
+    background-color: #A7BAA6;
+}
+.ex{
+    margin-top: 70px;
+}
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: #2B302B;
+    
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin: 30px 0 0 80px;
+    
+}
+.footer_item{
+  
+
+}
+.footer_item .title_description{
+    color: #C9E0C8;
+    margin-top: 7%;
+}
+.logo_git{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 30px 80px 0 0px;
+
+}
+=======
 
 }
  .hero {
@@ -68,3 +235,4 @@
     .contact li p{
         font-size: 21px;
     }
+
