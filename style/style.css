@@ -2,31 +2,65 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 70px;
+
 }
-.header{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+ .hero {
+   width: 100%;
+   min-height: 600px; 
+   background-image: url(../img/hero_bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 120px;
+   text-align: center;
 }
-.photo_user{
-    width: 50%;
-    padding: 30px;
-}
-.photo_user .avatar {
-    width: 400px;
-    height: 550px;
-}
-.contact_block h1{
-    color: darkred;
-}
-.contact_block p{
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-.title_ul{
-    color: darkblue;
-}
-code{
-    color: dimgrey;
-}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1.5px solid whitesmoke;
+    background-image: url(../img/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .title_name{
+     text-transform: uppercase;
+     font-size: 44px;
+     letter-spacing: 1.5px;
+     color: #D0C4D9;
+     font-weight: 500;
+ }
+ .hero h4{
+    padding: 21px;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    color: #D0C4D9;
+    font-weight: 300;
+ }
+ .contact{
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 120px;
+    }
+    .contact li{
+        display: flex;
+        color: #D0C4D9;
+
+    }
+    .contact_img{
+        color: white;
+        width: 30px;
+        height: 30px;
+        margin: 0px 6px 4px 0;
+    }
+    .contact li p{
+        font-size: 21px;
+    }
