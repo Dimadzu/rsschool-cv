@@ -1,14 +1,12 @@
 
-*,html,body{margin: 0;padding: 0;list-style: none; box-sizing: border-box;font-family: 'Roboto Condensed', sans-serif;}
 
+*,html,body{margin: 0;padding: 0;list-style: none; box-sizing: border-box;font-family: 'Roboto Condensed', sans-serif;}
 
 .container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     background-color: #DBF5D9;
-    position: relative;
-
 }
  .hero {
    width: 100%;
@@ -174,3 +172,67 @@
     margin: 30px 80px 0 0px;
 
 }
+=======
+
+}
+ .hero {
+   width: 100%;
+   min-height: 600px; 
+   background-image: url(../img/hero_bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 120px;
+   text-align: center;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1.5px solid whitesmoke;
+    background-image: url(../img/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .title_name{
+     text-transform: uppercase;
+     font-size: 44px;
+     letter-spacing: 1.5px;
+     color: #D0C4D9;
+     font-weight: 500;
+ }
+ .hero h4{
+    padding: 21px;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    color: #D0C4D9;
+    font-weight: 300;
+ }
+ .contact{
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 120px;
+    }
+    .contact li{
+        display: flex;
+        color: #D0C4D9;
+
+    }
+    .contact_img{
+        color: white;
+        width: 30px;
+        height: 30px;
+        margin: 0px 6px 4px 0;
+    }
+    .contact li p{
+        font-size: 21px;
+    }
+
