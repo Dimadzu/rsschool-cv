@@ -1,58 +1,30 @@
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"type="text/css"href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="./js/script.js"></script>
     <title>my CV</title>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="photo_user">
-                <img src="./img/avatar.jpg" alt="" class="avatar">
-            </div>
-            <div class="contact_block">
-                <h1>Dziuba Dmitriy</h1>
-                <h3>phone +38(063) 717 41 75</h3>
-                <h3><a href="https://github.com/Dimadzu/rsschool-cv">Dimadzu</a></h3>
-                <h3>Email dimadzu@i.ua</h3>
-                <p>Hey ! I am 35 years old, I live in the city of Dnipro, Ukraine. I want to work in an actively developing IT company as a front-end developer. Previously he worked in the company "Volia", repair and support of Internet lines.</p>
-                <p class="title_ul"><i>Basic knowledge :</i></p>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JS, Jquery, Bootstrap 4, PHP</li>
-                    <li>Git</li>
+        <hero>
+            <div class="hero">
+                <div class="avatar"></div>
+                <h1 class="title_name">Dziuba Dmitriy</h1>
+                <h4>Junior Frontend Developer</h4>
+                <ul class="contact">
+                    <li><img src="./img/phone.png" alt="" class="contact_img"><p>+38(063) 717 41 75</p></li>
+                    <li><img src="./img/email.png" alt="" class="contact_img"><p>Dimadzu@i.ua</p></li>
+                    <li><img src="./img/location.png" alt="" class="contact_img"><p>Dnipro city</p></li>
                 </ul>
-                <p class="title_ul"><i>sample code</i></p>
-                <p><code>
-                    $(window).scroll(function(){
-                        var winScrollTop = $(this).scrollTop();
-                        if((winScrollTop > scrollTosection3Pos) && (winWidth>500)){
-                           $(".go").fadeIn(1000);
-                           giftsLeft=$("#gifts").offset().left;
-                           giftsRight=giftsLeft+$("#gifts").width();
-                            $(".wedding").animate({left:(giftsLeft-220)+"px"},2000);
-                           $(".call").animate({left:(giftsRight-220)+"px"},2000);
-                        };
-                </code></p>
-            
             </div>
-        </div>
-        <p>He graduated from the front-end developer course at the computer academy "step" in 2018.
-            Graduated from Dnepropetrovsk Radio Instrumentation College in 2004</p>
-            <p class="title_ul"><i>About me :</i></p>
-        <ul>
-            <li>Responsibility</li>
-            <li>Diligence</li>
-            <li>Sociability</li>
-            <li>Learnability</li>
-            <li>Desire to develop and learn new technologies.</li>
-        </ul>
-      
+        </hero>
+        
+
         
     </div>
     
+
 </body>
 </html>
