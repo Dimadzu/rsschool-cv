@@ -1,7 +1,12 @@
+
+*,html,body{margin: 0;padding: 0;list-style: none; box-sizing: border-box;font-family: 'Roboto Condensed', sans-serif;}
+
+
 .container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #DBF5D9;
 
 }
  .hero {
@@ -64,3 +69,73 @@
     .contact li p{
         font-size: 21px;
     }
+
+/* description section Experience, education, skils */
+ .description{
+    width: 100%;
+    display: flex;
+    padding: 70px;
+}
+ .description_item {
+     width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.description_item:nth-child(1){
+    border-right: 2px solid #B2C7B1;
+}
+.description_item:nth-child(2){
+    padding-left: 70px;
+    padding-right: 0;
+}
+.title_description{
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    color: #292E29;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 30px 0 30px 0;
+}
+.work_specialist{
+    color: #323832;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 35px;
+    margin-left: 10px;
+}
+.work_desc{
+    color: #657064;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 34px;
+    margin-left: 10px;
+}
+.skills_item{
+    margin-left: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.skills_item h6{
+    font-size: 28px;
+
+}
+.skill_progress{
+    display: flex;
+    padding-bottom: 20px;
+}
+.item_progress{
+    width: 25px;
+    height: 25px;
+    background-color: #252924;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+}
+.skill_progress .white{
+    background-color: #A7BAA6;
+}
+.ex{
+    margin-top: 70px;
+}
